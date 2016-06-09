@@ -1,0 +1,46 @@
+@media only screen and (min-device-width: 700px)
+{
+	.alert
+	{
+		width: 23em;
+		position: fixed!important;
+		top: 35%;
+		left: 35%;
+		z-index: 1000000;
+		border: 1px solid #ada6a6;
+		box-shadow:  0 0 6px #fff inset;
+	}
+	.alert span
+	{
+		font-size: 30px;
+		float: left;
+		margin-right: 5px;
+	}
+	.alert p
+	{
+		font-size: 16px;
+	}
+}
+@media only screen and (max-device-width: 500px)
+{
+	.alert
+	{
+		width: 100%;
+		position: fixed!important;
+		z-index: 1000000;
+		border: 1px solid #ada6a6;
+		box-shadow:  0 0 6px #fff inset;
+	}
+
+	.alert span
+	{
+		font-size: 30px;
+		float: left;
+		margin-right: 5px;
+	}
+	.alert p
+	{
+		font-size: 18px;
+	}
+
+}
