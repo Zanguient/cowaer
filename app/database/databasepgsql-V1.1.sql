@@ -187,8 +187,8 @@ CREATE TABLE IF NOT EXISTS animais(
 	FOREIGN KEY(cod_pelagem) REFERENCES pelagens(cod),
 	FOREIGN KEY(cod_laboratorio) REFERENCES laboratorios(cod),
 	FOREIGN KEY(cod_raca) REFERENCES racas(cod),
-	FOREIGN KEY(cod_receptora) REFERENCES animais(cod),
-	FOREIGN KEY(proprietario) REFERENCES clientes(cod)
+	FOREIGN KEY(cod_receptora) REFERENCES animais(cod)
+	-- FOREIGN KEY(proprietario) REFERENCES clientes(cod)
 );
 
 -- Tabela: Pelagem
